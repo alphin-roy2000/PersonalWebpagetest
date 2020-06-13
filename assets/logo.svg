@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200.064" height="112.536" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ca0906;
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #11a8d9;
+        stroke-width: 55px;
+      }
+    </style>
+  </defs>
+  <image x="810" y="461" width="314" height="443" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAuCAYAAACmsnC6AAADy0lEQVRYhe2Ya2gUVxTHf5tNsrtEjYIVEbXxAUZLVQy+qvWFRoqIT3wgrVpRQcVvKn4S/eCXgoJoKcUqCFqpWgo2PhE1Cj4jJkXUVNG0ClHxESEmMdldOfHc5GacnWR2RUX2D8PcuffOmd8998yZeyfQaf9tfGodsN7jnqvARD82M/0SAGEg16O9nV+DGUlAvHelIYzSEEZpCKM0hNFnA1EE1HxMiF3AVGAu0PAxIHYDy4E4cBiYmaxHkoXYBixxjF5ApgGv/BpL5lP+B3BLPeDUSaD8Q0DcbKW9wjdEuLykRcXrnvnEwjm+yVJRIH/42Ba3x7NC1AwcQ3VBIbEcrwWUPwUa6gn9e41QxQ2Czysh3jyb70A0wQSD1A4YRfXQyURzv0j+4fV1RMqKySk5QUZ1lXufRBDNPTKo+fpbXk6Y31h2KnT3OtkPyqntP4L6Lj2bb4s2ECk9Q86lIjJqq70f0SqEqq7PYKqmLCUezGqqC9+8RO7x3RCPNV7X9R7Iq4JCMh9VeI48aQjR67yveDF1BfHMLCL/FNPh1L4mgFTkC0Ik8RGLtCOr8l7KDzfynSeCVU8aj/ep9HrC6JOAcMZEN+CYS7//gSkedtoDhyTQPfpI2wNgK1DaosHxdnwJ3E9gpAC4lqCtI/DcA8CWvNM/6c6+MXcHO3fPszvIWmAP8AwY52Lg7wSGo8AFoCvQW+vkk/4fUKlHg+7mxSOjJe0A53CJiXrgDjBBr8/qYkU0T38LuEnuOwo8tNoWA0OsQ0a7wWpfY8LBLTB7KKnoT2CnlmUU3yWAaItkGjYBR7SvTOGARBA/an1Mg63IGuGCFCCMyqxythuEzNdCLZ/Xh0d1SYe+IR1ShPhGz5J2r7tBjAB6afl3q96UwxobyUim82dgjHp5tVkoO/PEHD1L4wGr/ooubvOBRcCvbYDY61h5y+AiCrAS2G8abE9IebaWTwNPHUZ/s7zVtw0QeRp45oho/RbgF7uj7YlJQHcty4iLHUbNX7mABujGViAkoC877Mtb9wOw2U5uNsRCq9xDj0Sa2wYIyRs7rOsjOq1dNFuudUJI0EzXcpVmu6jjkDgZpEb6axpvuV/wlvxkvajTuUrjShJjU0zMsOZMtnjDgJHqvrGaQQvVjUbLfAAYbddzRCECNsQcq+NfHkb2aoqmlTSeSAc1P4jGA7MMhGzrZJRG4mLZcbsByMIyqNeStMSd3+u1GJdYMZLvhL1l7Accd+xh5Y0rkZiQjncdD7zhAiGx8til3hgNqZeMp8Tl8lU1knb5wtbp+uStIPsNgyPh3r5cs9UAAAAASUVORK5CYII="/>
+  <image x="869" y="448" width="189" height="234" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAAm0lEQVQ4je3SsQnCQBQG4C8XDKZxESewEgRBcAoLN3ATV9DGDbTUSsENrJzATpuoBES0Eo8UAf2bO47jg8f7k12eLTDFRnwytDEJ6GKNFZqR5Bx7DMLLYx95JDhEUl7C57/f5Q/+wRqASdVgqP3I16rB2+8Vu/ItV97Dt5GPuEQ6h8f5rM0WHZwjwR6WKNJxI21hhFMkVqbADOEOjP4U3cxh7XsAAAAASUVORK5CYII="/>
+  <path class="cls-1" d="M967,205l22.74,39.91,46.25,8.6-32.19,33.263L1009.64,332,967,312.643,924.36,332l5.844-45.223-32.195-33.263,46.25-8.6L967,205"/>
+  <circle class="cls-2" cx="967" cy="268" r="178"/>
+</svg>
