@@ -17,18 +17,24 @@
         background-size: cover;
       }
 header{
-  position: relative;
-  max-width: 1400px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+
+  
   margin: 0 auto;
   padding: 10px;
-  background: transparent;
+  
+  background: white;
+  
 }
+
 .menu-btn{
   display: none;
 }
 .pagelogo{
     
-    padding: 0 30px 5px;
+    padding: 0 70px 3px;
     box-sizing: border-box;
     float: left;
     font-weight: 700;
@@ -43,11 +49,12 @@ nav{
     margin:0;
     padding:0;
     display: flex;
+    padding-right:50px ;
   }
   nav ul li a{
     display: block;
     margin: 10px 0;
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-decoration: none;
     color: #1E90FF	;
   }
@@ -67,7 +74,7 @@ nav{
       align-items: center;
   }
 .sec1 img{
-    height: 87vh;
+    height: 100vh;
     width: 95%;
     
     object-fit: cover;
@@ -120,7 +127,18 @@ footer ul{
   font-family: cali;
   color: white;
 }
-@media screen and (max-width:600px){
+.welcometext1{
+  position: absolute;
+  top: 70%;
+  font-family: cali;
+  left: 10%;
+  font-size: 100px;
+  color: white;
+  z-index: 3;
+
+
+}
+@media screen and (max-width:750px){
   nav{
     display: none;
     }
