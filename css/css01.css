@@ -2,6 +2,9 @@
   src: url(../assets/font/cali.ttf);
   font-family: cali;
 }
+html {
+  scroll-behavior: smooth;
+}
 *{
 
     text-decoration: none;
@@ -20,14 +23,14 @@ header{
   position: fixed;
   z-index: 100;
   width: 100%;
-
-  
   margin: 0 auto;
   padding: 10px;
-  
   background: white;
-  
+  box-shadow:0 0.5rem 1rem 0 rgba(21,21,30,0.08);
 }
+  
+
+  
 
 .menu-btn{
   display: none;
@@ -37,8 +40,11 @@ header{
     padding: 0 70px 3px;
     box-sizing: border-box;
     float: left;
-    font-weight: 700;
+    font-weight: 100;
   
+  }
+  .logo{
+    width: 35px;
   }
   
 nav{
@@ -162,8 +168,10 @@ footer ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
+    padding-top: 15px;
+    padding-right: 10px;
     cursor: pointer;
     transition: all .5s ease-in-out;
     /* border: 3px solid #fff; */
@@ -174,7 +182,7 @@ footer ul{
     padding: 0;
     background: #208AAE;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    box-shadow: 0 2px 5px rgba(242, 241, 239, 1);
     transition: all .5s ease-in-out;
   }
   .menu-btn__burger::before,
@@ -185,7 +193,7 @@ footer ul{
     height: 3px;
     background: #208AAE;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    box-shadow: 0 2px 5px  rgba(242, 241, 239, 1);
     transition: all .5s ease-in-out;
   }
   .menu-btn__burger::before {
@@ -205,5 +213,11 @@ footer ul{
   }
   .menu-btn.open .menu-btn__burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
+  }
+  .pagelogo{
+    padding-left: 25px;
+  }
+  .logo{
+    width: 25px;
   }
 }
