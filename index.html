@@ -15,13 +15,33 @@
 </head>
 
 <body>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.menu-btn').click(function(){
+            
+            $('nav').toggleClass('activemenu');
+              $('.container').toggleClass('active');
+    
+          })
+        })</script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+              $('.nav ul li a').click(function(){
+                $('.menu-btn').removeClass('open');
+                menuOpen = false;
+                $('nav').removeClass('activemenu');
+                  $('.container').removeClass('active');
+        
+              })
+            })</script>
     <header> <div class="sps inverse sps--abv" id="navbar"><div class="pagelogo"><a href=""><img class="logo" src="assets/logo.png"  alt=""></a></div>
         <div class="menu-btn">
             <div class="menu-btn__burger"></div>
         </div>
         <script src="js/js01.js"></script>
-        <nav>
+        <nav class="nav" id="navint">
             <ul>
+                
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#Aboutme">About Me</a></li>
                 <li><a href="#Skilltree">My Skill Tree</a></li>
@@ -29,7 +49,7 @@
             </ul>
         </nav></div>
         
-
+        
     </header>
     <script async="" src="./js/scrollPosStyler.js.download"></script>
     <Section class="sec1" id="Home"><img src="assets/sec1.jpg" alt="">
@@ -77,3 +97,26 @@
 <!-- #iconmonstr -->
 
 </html>
+<!-- <div id="navigation" style="opacity: 1; display: block;"></div>
+
+        <div class="nav" id="navint">
+            <ul>
+                <li><a href="https://www.rsd-agencements.com/index.html" id="mactif"
+                        style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span>Accueil<i></i></span></a></li>
+                <li><a href="https://www.rsd-agencements.com/renovation-appartements-maisons-Lyon.html"
+                        style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span>Nos
+                            réalisations<i></i></span></a></li>
+                <li><a href="https://www.rsd-agencements.com/renovation-cuisine-Lyon.html"
+                        style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span>Nos cuisines<i></i></span></a>
+                </li>
+                <li><a href="https://www.rsd-agencements.com/showroom.html"
+                        style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span>Showroom<i></i></span></a></li>
+                <li><a href="https://www.rsd-agencements.com/demarche-architecte-interieur.html"
+                        style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span>Notre démarche de
+                            travail<i></i></span></a></li>
+                <li><a href="https://www.rsd-agencements.com/actualites.html"
+                        style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span>Actualités<i></i></span></a></li>
+                <li><a href="https://www.rsd-agencements.com/contact.php"
+                        style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span>Contact<i></i></span></a></li>
+            </ul>
+        </div> -->
