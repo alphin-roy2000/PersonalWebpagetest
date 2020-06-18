@@ -89,7 +89,7 @@ nav{
 }
 nav ul li a.active,
 nav ul li a:hover{
-  background: #1E90FF	;
+  background: linear-gradient(to right, #667eea     0%,#764ba2 100%);
   color: #fff;
   transition: 0.5s;
 }.minediv{
@@ -97,8 +97,12 @@ nav ul li a:hover{
   top: 20%;
 }
 .minep{
+  margin: 0;
   font-family: cali;
   font-size: 40px;
+  background: linear-gradient(to right, #2193b0   0%,#6dd5ed 100%);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .sec2{
   position: relative;
@@ -128,35 +132,45 @@ nav ul li a:hover{
   height: 200px;
   border-radius: 50%;
 }
-
+.about{
+  position: absolute;
+  bottom: 0;
+}
 .foot1{
   display: inline;
   list-style: none;
 }
 .foot1 a{
-  color: black;
-  font-size: 25px;
+
+  color: whitesmoke;
+  opacity: 0.8;
+  font-size: 35px;
     text-align: center;
     padding: 10px;
     
 }
 footer{
+  position: relative;
   height: 50%;
+  padding-top: 40px;
   box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
-  padding: 40px;
+
   background: linear-gradient(to right, #000428  0%,#004e92 100%);
 }
 footer ul{
-  padding-inline-start:0;
+  margin: 0 20px;
+  
   text-align: center;
 }
 
 .footer_text{
+  color: #5b86e5 ;
   text-align: center;
 }
 .footer_text a{
   font-family: cali;
   color: white;
+  font-size: 21px;
 }
 .welcometext1{
   position: absolute;
@@ -238,7 +252,14 @@ body::-webkit-scrollbar-thumb {
 									   color-stop(0.72, rgb(73,125,189)),
 									   color-stop(0.86, rgb(28,58,148)));
 }
-
+.copyright{position: absolute;
+  bottom: 0em;
+  z-index: 1000;
+  box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+ width: 100%;
+  background-color: #141e30;
+  height: auto;
+}
 @media screen and (max-width:779px){
   
   nav{
@@ -335,4 +356,4 @@ nav ul li a:hover{
   #navint{ left:0;position: absolute;width: 100%; top:70px;  height:100vh;opacity:0.9; background-color:#2d2e43; }
   #navint ul {position:relative; top:0; left:0; margin:0;padding:10px 0 40px 30px; height:auto}
   #navint ul li { margin-bottom:1px}
-  #navint ul li a {padding:5px 0 5px 18px;background-size:6px; font-size:1.3em; letter-spacing:0.05em}}
+  #navint ul li a {padding:5px 0 5px 18px;background-size:6px; font-size:1.3em; letter-spacing:0.05em;}}
