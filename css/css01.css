@@ -1,5 +1,5 @@
 @font-face{
-  src: url(../assets/cali.ttf);
+  src: url(../assets/Caveat-Regular.ttf);
   font-family: cali;
 }
 html {
@@ -68,7 +68,8 @@ nav{
     list-style: none;
    height: 5px;
   }
-  section{
+  section{position: absolute;
+
     justify-content: center;
     align-items: center;
   }
@@ -91,6 +92,13 @@ nav ul li a:hover{
   background: #1E90FF	;
   color: #fff;
   transition: 0.5s;
+}.minediv{
+  position: absolute;
+  top: 20%;
+}
+.minep{
+  font-family: cali;
+  font-size: 40px;
 }
 .sec2{
   position: relative;
@@ -133,6 +141,7 @@ nav ul li a:hover{
     
 }
 footer{
+  height: 50%;
   box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
   padding: 40px;
   background: linear-gradient(to right, #000428  0%,#004e92 100%);
@@ -160,10 +169,6 @@ footer ul{
 
 
 }
-
-
-
-/* ---- stats.js ---- */
 
 .count-particles{
   background: #000022;
@@ -250,8 +255,10 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     width: 40px;
     height: 40px;
-    padding-top: 15px;
-    padding-right: 10px;
+    padding-top: 0;
+    padding-right: 0;
+    margin-top: 15px;
+    margin-right: 10px;
     cursor: pointer;
     transition: all .5s ease-in-out;
     /* border: 3px solid #fff; */
@@ -288,6 +295,7 @@ body::-webkit-scrollbar-thumb {
     background: transparent;
     box-shadow: none;
   }
+ 
   .menu-btn.open .menu-btn__burger::before {
     transform: rotate(45deg) translate(35px, -35px);
   }
@@ -308,7 +316,7 @@ body::-webkit-scrollbar-thumb {
   .activemenu{
     display: inline;
     }
-    #navint { position:absolute; top:0; left:50%; width:50%; height:100%; background-color:#2d2e43; background-image:url(../Images/RSD-agencement-architecte-interieur-Lyon.jpg); background-position:center; background-repeat:no-repeat; background-size:cover}
+    #navint { position:absolute; top:0; left:50%; width:50%; height:100%; }
 		#navint ul {position:absolute; top:50%; left:73px; margin-top:-260px/*js*/;display:inline-block;}
 			#navint ul li {display:block; margin-bottom:0px;padding:40px;}
 			#navint ul li a {display:inline-block; padding:13px 0 13px 33px;
@@ -325,6 +333,6 @@ nav ul li a:hover{
   transition: 0.5s;
 }
   #navint{ left:0;position: absolute;width: 100%; top:70px;  height:100vh;opacity:0.9; background-color:#2d2e43; }
-  #navint ul {position:relative; top:0; left:0; margin:0;padding:125px 0 40px 30px; height:auto}
+  #navint ul {position:relative; top:0; left:0; margin:0;padding:10px 0 40px 30px; height:auto}
   #navint ul li { margin-bottom:1px}
   #navint ul li a {padding:5px 0 5px 18px;background-size:6px; font-size:1.3em; letter-spacing:0.05em}}

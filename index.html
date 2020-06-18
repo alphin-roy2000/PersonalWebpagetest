@@ -16,26 +16,7 @@
 </head>
 
 <body>
-    <script type="text/javascript">
-        $(document).ready(function(){
-          $('.menu-btn').click(function(){
-            $('.nav ul li a').toggleClass('activeani');
-            $('nav').toggleClass('activemenu');
-              $('.container').toggleClass('active');
     
-          })
-        })</script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-              $('.nav ul li a').click(function(){
-                $('.menu-btn').removeClass('open');
-                menuOpen = false;
-                $('.nav ul li a').removeClass('activeani');
-                $('nav').removeClass('activemenu');
-                  $('.container').removeClass('active');
-        
-              })
-            })</script>
             
     <header> <div class="sps inverse sps--abv" id="navbar"><div class="pagelogo"><a href=""><img class="logo" src="assets/logo.png"  alt=""></a></div>
         <div class="menu-btn">
@@ -48,9 +29,11 @@
                 <li><a href="#Home" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Home</a></li>
                 <li><a href="#Aboutme" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">About Me</a></li>
                 <li><a href="#Skilltree" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">My Skill Tree</a></li>
-                <li><a href="#Contact" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Contact</a></li>
+                
+               
                 <li><a href="#Contact" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Contact</a></li>
             </ul>
+            
         </nav></div>
         
         
@@ -60,14 +43,15 @@
         <h1 class="welcometext1">Hi There</h1>
     </Section>
     <Section class="sec2" id="Aboutme">
-        <div><img class="mine" src="assets/mine.jpg" alt="">
-            <p>I'm Alphin Roy</p>
+        <div class="minediv"><img class="mine" src="assets/mine.jpg" alt="">
+            <p class="minep">I'm Alphin Roy</p>
         </div>
     </Section>
-    <section class="sec3" id="Skilltree"></section>
+    <section class="sec3"></section>
     <section class="getintouch"></section>
-    <Section class="seclast"><img src="assets/sec3.jpg" alt="">
+    <Section class="seclast"  id="Skilltree"><img src="assets/sec3.jpg" alt="">
     </Section>
+    <!-- <canvas id="webgl" width="1536" height="706" style="width: 1536px; height: 706px;" class="show"></canvas> -->
     <div id="particles-js"></div>
 
 <!-- scripts -->
@@ -101,8 +85,27 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/b159ec4b36.js" crossorigin="anonymous"></script>
-
     
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.menu-btn').click(function(){
+            $('.nav ul li a').toggleClass('activeani');
+            $('nav').toggleClass('activemenu');
+              $('.container').toggleClass('active');
+    
+          })
+        })</script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+              $('.nav ul li a').click(function(){
+                $('.menu-btn').removeClass('open');
+                menuOpen = false;
+                $('.nav ul li a').removeClass('activeani');
+                $('nav').removeClass('activemenu');
+                  $('.container').removeClass('active');
+        
+              })
+            })</script>
 
 
 </body>
