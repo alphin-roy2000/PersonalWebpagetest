@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Webpage</title>
+    <link rel="icon" href="assets/icon.png" sizes="" type="image/png">
     <link rel="stylesheet" href="css/css01.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript">
@@ -18,7 +19,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
           $('.menu-btn').click(function(){
-            
+            $('.nav ul li a').toggleClass('activeani');
             $('nav').toggleClass('activemenu');
               $('.container').toggleClass('active');
     
@@ -29,6 +30,7 @@
               $('.nav ul li a').click(function(){
                 $('.menu-btn').removeClass('open');
                 menuOpen = false;
+                $('.nav ul li a').removeClass('activeani');
                 $('nav').removeClass('activemenu');
                   $('.container').removeClass('active');
         
@@ -42,10 +44,10 @@
         <nav class="nav" id="navint">
             <ul>
                 
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Aboutme">About Me</a></li>
-                <li><a href="#Skilltree">My Skill Tree</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Home" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Home</a></li>
+                <li><a href="#Aboutme" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">About Me</a></li>
+                <li><a href="#Skilltree" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">My Skill Tree</a></li>
+                <li><a href="#Contact" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Contact</a></li>
             </ul>
         </nav></div>
         
@@ -67,7 +69,7 @@
     <footer class="dark-mode">
         <div class="foot1c1" id="Contact">
             <ul id="icons01" class="icons">
-                <li class="foot1"><a class="" href="https://www.instagram.com/alphin_roy2000/"><i
+                <li class="foot1" id=""><a class="" href="https://www.instagram.com/alphin_roy2000/"><i
                             class="fab fa-instagram"></i></a></li>
                 <li class="foot1"><a class="" href="https://www.facebook.com/alphin.roy"><i
                             class="fab fa-facebook"></i></a></li>
@@ -91,6 +93,8 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/b159ec4b36.js" crossorigin="anonymous"></script>
+
+    
 
 
 </body>
