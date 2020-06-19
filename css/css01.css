@@ -140,13 +140,17 @@ nav ul li a:hover{
   display: inline;
   list-style: none;
 }
+.foot1c1{
+  padding: 10px;
+}
 .foot1 a{
 
   color: whitesmoke;
-  opacity: 0.8;
+  opacity: 0.7;
   font-size: 35px;
     text-align: center;
     padding: 10px;
+    
     
 }
 footer{
@@ -182,6 +186,10 @@ footer ul{
   z-index: 3;
 
 
+}
+.icons li{
+  padding-top: 10px;
+  padding: 5px 5px;
 }
 
 .count-particles{
@@ -219,6 +227,16 @@ footer ul{
 .count-particles{
   border-radius: 0 0 3px 3px;
 }
+.image_slide{
+  position: relative;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #434343  0%,#000000 100%);
+    
+    
+    margin: 0;
+    padding: 0;
+  
+}
 
 
 /* ---- particles.js container ---- */
@@ -233,7 +251,7 @@ footer ul{
 }
 
 body::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 	background-color: #F5F5F5;
 }
  
@@ -254,12 +272,13 @@ body::-webkit-scrollbar-thumb {
 }
 .copyright{position: absolute;
   bottom: 0em;
-  z-index: 1000;
-  box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+
+  /* box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75); */
  width: 100%;
   background-color: #141e30;
   height: auto;
 }
+
 @media screen and (max-width:779px){
   
   nav{

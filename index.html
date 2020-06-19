@@ -12,6 +12,94 @@
         /*! Removes address bar in mobile browsers */
         setTimeout(function () { window.scrollTo(0, 1) }, 100);
     </script>
+    <link rel="stylesheet" href="swiper.min.css">
+    <style>
+   
+        .swiper-container {
+          width: 50%;
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }
+        .swiper-slide {
+          background-position: center;
+          background-size: cover;
+          width: 80%;
+          height: 400px;
+    
+        }
+        @media screen and (max-width:779px){
+            .swiper-container {
+          width: 95%;
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }
+        }
+      </style>
+       <style>
+        
+        .container {
+          position: absolute;
+          bottom: 10%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      
+       
+    .btn {
+      text-decoration: none;
+      position: relative;
+      padding: 15px 40px;
+      color: #004e92;
+      box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+      font-family: sans-serif;
+      text-transform: uppercase;
+      font-size: 22px;
+      letter-spacing: 2px;
+      box-sizing: border-box;
+      display: block;
+      border-radius: 30px;
+      overflow: hidden;
+    }
+    .btn:hover {
+      color: #fff;
+      transition-delay: .5s;
+    }
+    .btn::before,
+    .btn::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) scale(.5);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #004e92;
+      z-index: -1;
+      opacity: 0;
+    }
+    .btn::before {
+      left: 58px;
+      transition: left .5s 0s, transform .5s 0s;
+    }
+    .btn::after {
+      right: 58px;
+      transition: right .5s 0s, transform .5s 0s;
+    }
+    .btn:hover::before,
+    .btn:hover::after {
+      transform: translateY(-50%) scale(50);
+      transition-delay: 0s, .5s;
+      opacity: 1;
+    }
+    .btn:hover::before {
+      left: 10px;
+    }
+    .btn:hover::after {
+      right: 10px;
+    }
+    
+      </style>
+      <script src="swiper.min.js"></script>
 
 </head>
 
@@ -56,15 +144,35 @@
     <section class="getintouch"></section>
     <Section class="seclast"  id="Skilltree"><img src="assets/sec3.jpg" alt="">
     </Section>
+    <section class="image_slide"><div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image:url(assets/sec1.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(assets/sec2.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(assets/nature-3.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(assets/nature-4.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(assets/nature-5.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(assets/nature-6.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(assets/nature-7.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(assets/nature-8.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(assets/nature-9.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(assets/nature-10.jpg)"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="container">
+        <a href="photography.html" class="btn">Check out my Photography page</a>
+      </div></section>
     <!-- <canvas id="webgl" width="1536" height="706" style="width: 1536px; height: 706px;" class="show"></canvas> -->
     <div id="particles-js"></div>
+
 
 <!-- scripts -->
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
     <!-- <section class="seclast"></section><img src="assets/sec2.jpg" alt=""></section> -->
-    <footer class="dark-mode">
-        <div class="foot1c1" id="Contact">
+    <footer class="dark-mode"  id="Contact">
+        <div class="foot1c1">
             <ul id="icons01" class="icons">
                 <li class="foot1" id=""><a class="" href="https://www.instagram.com/alphin_roy2000/"><i
                             class="fab fa-instagram"></i></a></li>
@@ -81,12 +189,13 @@
                 </li>
                 <li class="foot1"><a class="" href=""><i class="fab fa-snapchat"></i></a></li>
             </ul>
-        </div>
+        
              <p class="footer_text p2">"I do see the beauty in the rules, the invisible code of chaos hiding behind the menacing face of order."  - Elliot Alderson</p>
-             <div class="copyright"><p class="footer_text">© 2020 Copyright: <a href="https://github.com/alphin-roy2000"
+            </div> <div class="copyright"><p class="footer_text">© 2020 Copyright: <a href="https://github.com/alphin-roy2000"
                 class="footer_text">Alphin
                 Roy</a></p></div>
             </footer>
+
             
 
     <script src="https://kit.fontawesome.com/b159ec4b36.js" crossorigin="anonymous"></script>
@@ -111,6 +220,25 @@
         
               })
             })</script>
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                  effect: 'coverflow',
+                  grabCursor: true,
+                  centeredSlides: true,
+                  slidesPerView: 'auto',
+                  coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows : true,
+                  },
+                  pagination: {
+                    el: '.swiper-pagination',
+                  },
+                });
+              </script>
+            
 
 
 </body>
