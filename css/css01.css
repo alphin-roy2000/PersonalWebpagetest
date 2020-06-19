@@ -28,20 +28,6 @@ header{
   background: white;
   box-shadow:0 0.5rem 1rem 0 rgba(21,21,30,0.08);
 }
-.ml12 {
-  position: absolute;
-  font-weight: 200;
-  font-size: 2.5em;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-  
-}
-
-.ml12 .letter {
-  display: inline-block;
-  line-height: 1em;
-  color: whitesmoke;
-}
   
 
   
@@ -169,11 +155,11 @@ nav ul li a:hover{
 }
 footer{
   position: relative;
-  height: 50%;
+  height: 80%;
   padding-top: 40px;
-  box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
-
-  background: linear-gradient(to right, #000428  0%,#004e92 100%);
+  /* box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75); */
+  background: #434242; 
+  /* background: linear-gradient(to right, #000428  0%,#004e92 100%); */
 }
 footer ul{
   margin: 0 20px;
@@ -244,8 +230,8 @@ footer ul{
 .image_slide{
   position: relative;
     height: 100vh;
-    background: linear-gradient(to bottom right, #380036  0%,#0CBABA 100%);
-
+    /* background: linear-gradient(to bottom right, #380036  0%,#0CBABA 100%); */
+    background: #fff; 
     
     margin: 0;
     padding: 0;
@@ -292,7 +278,19 @@ body::-webkit-scrollbar-thumb {
   background-color: #141e30;
   height: auto;
 }
+.ml12 {
+  position: absolute;
+  font-weight: 200;
+  font-size: 2.1em;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
 
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
 @media screen and (max-width:779px){
   
   nav{
@@ -375,9 +373,7 @@ body::-webkit-scrollbar-thumb {
 			#navint ul li {display:block; margin-bottom:0px;padding:40px;}
 			#navint ul li a {display:inline-block; padding:13px 0 13px 33px;
 			font-size:1.7em; font-weight:300; letter-spacing:0.08em; background-repeat:no-repeat; color:#FFF; text-decoration:none}
-.ml12{
-  font-size: 1.8em;
-}
+
    
       /* nav.active ul li a{
         margin: 0;
@@ -395,7 +391,11 @@ nav ul li a:hover{
   .foot1 a{
 
     font-size: 25px;
-
       
+  }
+  .ml12 {
+
+    font-size: 1.6em;
+
   }}
   
