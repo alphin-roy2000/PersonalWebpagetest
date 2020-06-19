@@ -41,7 +41,7 @@
           position: absolute;
           bottom: 10%;
           left: 50%;
-          transform: translate(-50%, -50%);
+          transform: translate(-50%, 0);
         }
       
        
@@ -49,7 +49,7 @@
       text-decoration: none;
       position: relative;
       padding: 15px 40px;
-      color: #004e92;
+      color: #0acbee;
       box-shadow: 0 0 5px rgba(0, 0, 0, .5);
       font-family: sans-serif;
       text-transform: uppercase;
@@ -97,6 +97,13 @@
     .btn:hover::after {
       right: 10px;
     }
+    @media screen and (max-width:779px){
+      .container {
+
+          bottom: 20px;
+
+        }
+    }
     
       </style>
       <script src="swiper.min.js"></script>
@@ -142,26 +149,26 @@
     </Section>
     <section class="sec3"></section>
     <section class="getintouch"></section>
-    <Section class="seclast"  id="Skilltree"><img src="assets/sec3.jpg" alt="">
+    <!-- <Section class="seclast"  id="Skilltree"><img src="assets/sec3.jpg" alt=""> -->
     </Section>
     <section class="image_slide"><div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide" style="background-image:url(assets/sec1.jpg)"></div>
           <div class="swiper-slide" style="background-image:url(assets/sec2.jpg)"></div>
-          <div class="swiper-slide" style="background-image:url(assets/nature-3.jpg)"></div>
+          <!-- <div class="swiper-slide" style="background-image:url(assets/nature-3.jpg)"></div>
           <div class="swiper-slide" style="background-image:url(assets/nature-4.jpg)"></div>
           <div class="swiper-slide" style="background-image:url(assets/nature-5.jpg)"></div>
           <div class="swiper-slide" style="background-image:url(assets/nature-6.jpg)"></div>
           <div class="swiper-slide" style="background-image:url(assets/nature-7.jpg)"></div>
           <div class="swiper-slide" style="background-image:url(assets/nature-8.jpg)"></div>
           <div class="swiper-slide" style="background-image:url(assets/nature-9.jpg)"></div>
-          <div class="swiper-slide" style="background-image:url(assets/nature-10.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(assets/nature-10.jpg)"></div> -->
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
       </div>
       <div class="container">
-        <a href="photography.html" class="btn">Check out my Photography page</a>
+        <a href="photography.html" class="btn"><center> Photography page</center></a>
       </div></section>
     <!-- <canvas id="webgl" width="1536" height="706" style="width: 1536px; height: 706px;" class="show"></canvas> -->
     <div id="particles-js"></div>

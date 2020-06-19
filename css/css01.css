@@ -230,8 +230,8 @@ footer ul{
 .image_slide{
   position: relative;
     height: 100vh;
-    background: linear-gradient(to bottom right, #434343  0%,#000000 100%);
-    
+    background: linear-gradient(to bottom right, #380036  0%,#0CBABA 100%);
+
     
     margin: 0;
     padding: 0;
@@ -375,4 +375,11 @@ nav ul li a:hover{
   #navint{ left:0;position: absolute;width: 100%; top:70px;  height:100vh;opacity:0.9; background-color:#2d2e43; }
   #navint ul {position:relative; top:0; left:0; margin:0;padding:10px 0 40px 30px; height:auto}
   #navint ul li { margin-bottom:1px}
-  #navint ul li a {padding:5px 0 5px 18px;background-size:6px; font-size:1.3em; letter-spacing:0.05em;}}
+  #navint ul li a {padding:5px 0 5px 18px;background-size:6px; font-size:1.3em; letter-spacing:0.05em;}
+  .foot1 a{
+
+    font-size: 25px;
+
+      
+  }}
+  
