@@ -28,6 +28,20 @@ header{
   background: white;
   box-shadow:0 0.5rem 1rem 0 rgba(21,21,30,0.08);
 }
+.ml12 {
+  position: absolute;
+  font-weight: 200;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+  color: whitesmoke;
+}
   
 
   
@@ -361,7 +375,9 @@ body::-webkit-scrollbar-thumb {
 			#navint ul li {display:block; margin-bottom:0px;padding:40px;}
 			#navint ul li a {display:inline-block; padding:13px 0 13px 33px;
 			font-size:1.7em; font-weight:300; letter-spacing:0.08em; background-repeat:no-repeat; color:#FFF; text-decoration:none}
-
+.ml12{
+  font-size: 1.8em;
+}
    
       /* nav.active ul li a{
         margin: 0;
