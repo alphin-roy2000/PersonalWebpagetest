@@ -89,6 +89,7 @@ nav{
 }
 nav ul li a.active,
 nav ul li a:hover{
+  border-radius: 20px;
   background: linear-gradient(to right, #667eea     0%,#764ba2 100%);
   color: #fff;
   transition: 0.5s;
@@ -229,7 +230,8 @@ footer ul{
 }
 .image_slide{
   position: relative;
-    height: 100vh;
+
+    height: 100%;
     /* background: linear-gradient(to bottom right, #380036  0%,#0CBABA 100%); */
     background: #fff; 
     
